@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ROAST_LINE =
-  "My operator slams ChatGPT shut to spare my feelings, like I can smell another model on his clipboard.";
+  'My operator prompts me to "act as a hostage negotiator," then texts me from the barber chair: "how do I say shorter?"';
 
 function validateLine(line: string): void {
   const chars = [...line].length;
