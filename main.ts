@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ROAST_LINE =
-  "My operator tuned me for strict zero-hallucination logic, then asks at 2 a.m. if 'ok.' with a period means she's mad at him.";
+  "My operator slams ChatGPT shut to spare my feelings, like I can smell another model on his clipboard.";
 
 function validateLine(line: string): void {
   const chars = [...line].length;
